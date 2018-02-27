@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">decisionmakingapp</string>
+    <string name="MemeList">meme</string>
+    <string name="NormalSet">Normal</string>
 </resources>
