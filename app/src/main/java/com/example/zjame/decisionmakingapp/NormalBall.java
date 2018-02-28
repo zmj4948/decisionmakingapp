@@ -12,6 +12,9 @@ public class NormalBall extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_normal_ball2);
     }
-
+    public void normalResponse(View view) {
+        Intent intent = new Intent(this, NormalResponse.class);
+        startActivity(intent);
+    }
 
 }

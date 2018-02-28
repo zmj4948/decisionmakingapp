@@ -39,7 +39,8 @@
         <activity android:name=".NormalDie" />
         <activity android:name=".MemeBall" />
         <activity android:name=".MemeCoin" />
-        <activity android:name=".MemeDie"></activity>
+        <activity android:name=".MemeDie" />
+        <activity android:name=".NormalResponse"></activity>
     </application>
 
 </manifest>
