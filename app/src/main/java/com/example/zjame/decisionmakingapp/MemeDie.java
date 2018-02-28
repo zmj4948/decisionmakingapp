@@ -7,6 +7,9 @@ public class MemeDie extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        /*
+        opens the meme dice page
+         */
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meme_die);
     }

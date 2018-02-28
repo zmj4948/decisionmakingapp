@@ -7,6 +7,8 @@
     <string name="dice">Dice Roll</string>
     <string name="title_activity_normal_ball">NormalBall</string>
     <string name="tapball">Tap the Ball</string>
+
+    <!-- The  list for the normal magic 8 ball -->
     <string-array name="NormalBallArray">
         <item>It is certain</item>
         <item>It is decidedly so</item>
@@ -29,6 +31,8 @@
         <item>Outlook not so good</item>
         <item>Very doubtful</item>
     </string-array>
+
+    <!-- The list for the Meme Magic 8 Ball -->
     <string-array name="MemeBallArray">
         <item>Probably </item>
         <item>Maybe</item>
@@ -37,4 +41,5 @@
         <item>Concentrate and ask again</item>
         <item>Your choice</item>
     </string-array>
+
 </resources>

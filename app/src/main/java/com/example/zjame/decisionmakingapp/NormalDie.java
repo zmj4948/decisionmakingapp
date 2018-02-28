@@ -7,6 +7,9 @@ public class NormalDie extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        /*
+        creates the normal dice page
+         */
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_normal_die);
     }

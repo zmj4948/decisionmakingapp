@@ -7,6 +7,9 @@ public class MemeCoin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        /*
+        starts the meme coin activity
+         */
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meme_coin);
     }
