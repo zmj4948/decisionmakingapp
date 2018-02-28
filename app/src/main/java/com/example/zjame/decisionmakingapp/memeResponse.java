@@ -9,29 +9,25 @@ import android.widget.TextView;
 
 import java.util.Random;
 
-public class NormalResponse extends AppCompatActivity {
-
+public class memeResponse extends AppCompatActivity {
     private String[] myString;
     private static final Random rgenerator = new Random();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_normal_response);
-
+        setContentView(R.layout.activity_meme_response);
         Resources res = getResources();
 
-        myString = res.getStringArray(R.array.NormalBallArray);
+        myString = res.getStringArray(R.array.MemeBallArray);
 
         String q = myString[rgenerator.nextInt(myString.length)];
 
         TextView tv = findViewById(R.id.textView);
         tv.setText(q);
-
     }
-    public void normalResponse(View view) {
-        Intent intent = new Intent(this, NormalResponse.class);
+    public void memeResponse(View view) {
+        Intent intent = new Intent(this, memeResponse.class);
         startActivity(intent);
     }
-
 }

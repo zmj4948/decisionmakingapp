@@ -29,5 +29,12 @@
         <item>Outlook not so good</item>
         <item>Very doubtful</item>
     </string-array>
-
+    <string-array name="MemeBallArray">
+        <item>Probably </item>
+        <item>Maybe</item>
+        <item>Meh</item>
+        <item>If you desire</item>
+        <item>Concentrate and ask again</item>
+        <item>Your choice</item>
+    </string-array>
 </resources>

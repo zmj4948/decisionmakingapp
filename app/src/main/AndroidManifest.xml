@@ -34,13 +34,80 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".NormalCoin" />
-        <activity android:name=".NormalBall" />
-        <activity android:name=".NormalDie" />
-        <activity android:name=".MemeBall" />
-        <activity android:name=".MemeCoin" />
-        <activity android:name=".MemeDie" />
-        <activity android:name=".NormalResponse"></activity>
+        <activity
+            android:name=".NormalCoin"
+            android:parentActivityName=".NormalMain">
+        <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NormalMain" />
+        </activity>
+        <activity
+            android:name=".NormalBall"
+            android:parentActivityName=".NormalMain">
+
+        <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NormalMain" />
+        </activity>
+        <activity
+            android:name=".NormalDie"
+            android:parentActivityName=".NormalMain">
+
+        <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NormalMain" />
+        </activity>
+        <activity
+            android:name=".MemeBall"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MemeMain" />
+        </activity>
+
+        <activity
+            android:name=".MemeCoin"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MemeMain" />
+        </activity>
+
+        <activity
+            android:name=".MemeDie"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MemeMain" />
+        </activity>
+
+        <activity
+            android:name=".NormalResponse"
+            android:parentActivityName=".NormalMain">
+
+        <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NormalMain" />
+        </activity>
+        <activity
+            android:name=".memeResponse"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MemeMain" />
+        </activity>
     </application>
 
 </manifest>
