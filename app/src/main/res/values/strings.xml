@@ -5,4 +5,5 @@
     <string name="ball">Magic 8 Ball</string>
     <string name="coin">Coin Flip</string>
     <string name="dice">Dice Roll</string>
+    <string name="title_activity_normal_ball">NormalBall</string>
 </resources>
