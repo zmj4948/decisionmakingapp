@@ -2,4 +2,7 @@
     <string name="app_name">decisionmakingapp</string>
     <string name="MemeList">meme</string>
     <string name="NormalSet">Normal</string>
+    <string name="ball">Magic 8 Ball</string>
+    <string name="coin">Coin Flip</string>
+    <string name="dice">Dice Roll</string>
 </resources>
