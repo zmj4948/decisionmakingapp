@@ -7,6 +7,26 @@
     <string name="dice">Dice Roll</string>
     <string name="title_activity_normal_ball">NormalBall</string>
     <string name="tapball">Tap the Ball</string>
+    <string name="rollDice">Roll the Die!</string>
+
+    <string-array name="NormalDieArray">
+        <item>You rolled a One!</item>
+        <item>You rolled a Two!</item>
+        <item>You rolled a Three!</item>
+        <item>You rolled a Four!</item>
+        <item>You rolled a Five!</item>
+        <item>You rolled a Six!</item>
+    </string-array>
+
+    <string name="memeDie">Despite the fact you rolled a normal die, it turned into a d-20. You
+        failed your freshman project</string>
+    <string name="coinflip">Tap to Flip the Coin!</string>
+    <string name="memecoin">The coin landed on its side, giving you no answer.</string>
+
+    <string-array name="coin">
+        <item>Heads!</item>
+        <item>Tails!</item>
+    </string-array>
 
     <!-- The  list for the normal magic 8 ball -->
     <string-array name="NormalBallArray">
