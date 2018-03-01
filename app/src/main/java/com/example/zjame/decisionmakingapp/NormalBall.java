@@ -28,7 +28,7 @@ public class NormalBall extends AppCompatActivity {
         Resources res = getResources();
         myString = res.getStringArray(R.array.NormalBallArray);
         String q = myString[rgenerator.nextInt(myString.length)];
-        TextView tv = findViewById(R.id.textView);
+        TextView tv = findViewById(R.id.textView3);
         tv.setText(q);
     }
 

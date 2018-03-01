@@ -24,7 +24,7 @@ public class MemeBall extends AppCompatActivity {
         Resources res = getResources();
         myString = res.getStringArray(R.array.MemeBallArray);
         String q = myString[rgenerator.nextInt(myString.length)];
-        TextView tv = findViewById(R.id.textView);
+        TextView tv = findViewById(R.id.textView4);
         tv.setText(q);
     }
 }
